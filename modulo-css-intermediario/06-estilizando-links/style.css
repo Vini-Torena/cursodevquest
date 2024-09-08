@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=SUSE:wght@100..800&display=swap');
+
+h1{
+    font-family: Montserrat;
+}
+
+a {
+    font-family: Montserrat;
+    cursor: all-scroll;
+    margin: 10px;
+    padding: 5px;
+
+}
+
+a:visited{
+    color: blue;
+}
+
+a:active{
+    color: red;
+}
+a:hover{
+    background-color: blueviolet;
+    color: aliceblue;
+}
