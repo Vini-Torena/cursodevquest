@@ -1,0 +1,78 @@
+body{
+    background-image: url(../images/bg-desktop.svg);
+    background-color: hsl(257, 40%, 49%);
+    font-family: Poppins, sans-serif ;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height: 80vh
+}
+
+.imagem {
+    padding: 20px
+
+}
+
+.imagem img {
+    max-width: 100%;
+    
+}
+
+.conteudo {
+    padding: 20px;
+    width: 80vh;
+    height: 80vh;
+    font-family: Poppins, sans-serif;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.conteudo .titulo{
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    }
+
+.conteudo .botao {
+    background-color: #fff;
+    border-radius: 30px;
+    padding: 10px 30px;
+    margin-top: 10px;
+    color: hsl(300, 69%, 71%) ;
+    text-decoration: none;
+    font-weight: 300;
+    width: 150px;
+    text-align: center;
+    
+    
+}
+
+.conteudo .botao:hover{
+    background-color: hsl(300, 69%, 71%) ;
+    color: #fff;
+}
+
+.conteudo .paragrafo{
+    font-weight: 200;
+}
+
+.rodape{
+    display: flex;
+    justify-content: flex-end; 
+}
+
+.rodape .rede-social a{
+    color: #fff;
+    font-size: 40px;
+    text-decoration: none;
+    padding: 20px;
+    
+}
